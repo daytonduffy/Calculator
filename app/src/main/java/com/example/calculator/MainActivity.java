@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-
+    // four seperate calls
     public void clickFunctionAdd(View view) {
         EditText integerOne = (EditText) findViewById(R.id.integerOne);
         int i1 = Integer.parseInt(integerOne.getText().toString());
